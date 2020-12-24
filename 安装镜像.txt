@@ -1,0 +1,7 @@
+opencv-python:
+	pip install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
+matplotlib:
+	pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple
+	pip install -i https://mirrors.aliyun.com/pypi/simple/ matplotlib
+numpy:
+	pip install -i https://mirrors.aliyun.com/pypi/simple/ numpy
