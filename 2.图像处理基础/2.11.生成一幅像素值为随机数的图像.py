@@ -10,7 +10,7 @@ wndName1="pic1"
         # src[i,j]=(np.random.randint(0,255),np.random.randint(0,255),np.random.randint(0,255))
 
 #2.
-src=np.random.randint(0,256,size=[256,256,3],dtype=np.uint8)
+src=np.random.randint(0,256,size=[100,100,3],dtype=np.uint8)
 
 cv2.namedWindow(wndName1,cv2.WINDOW_AUTOSIZE)
 cv2.imshow(wndName1,src)

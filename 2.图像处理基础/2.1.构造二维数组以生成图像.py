@@ -10,9 +10,12 @@ rows,cols=src.shape[:2]
 
 #将10行-100行，80列-100列的元素变成白色
 #1.
-for i in range(0,30):
-    for j in range(10,20):
-        src[i,j]=127
+# for i in range(0,30):
+    # for j in range(10,20):
+        # src[i,j]=127
+        
+#2.
+src[0:30,10:20]=127
         
 #输出每个像素对应的元素坐标
 for i in range(rows):

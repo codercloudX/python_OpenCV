@@ -5,7 +5,7 @@ import numpy as np
 wndName1="pic1"
 
 i,j=0,0
-src =np.zeros((100,100,3),dtype=np.uint8)#生成一个30*30*3的三维数组，表示30行30列3个通道
+src =np.zeros((30,30,3),dtype=np.uint8)#生成一个30*30*3的三维数组，表示30行30列3个通道
 rows,cols=src.shape[:2]
 
 # src[15,15]=[255,0,0]#第一个值是蓝色通道
