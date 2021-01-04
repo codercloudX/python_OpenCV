@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import cv2 
+=======
+import cv2
+>>>>>>> afb766743f3840539a4307408386a48a1833c9c2
 import numpy as np
 
 wndName1="pic1"
